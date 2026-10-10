@@ -1,0 +1,110 @@
+{
+  "products": {
+    "record_count": 2000,
+    "fields": [
+      "id",
+      "created_at",
+      "updated_at",
+      "sku",
+      "name",
+      "slug",
+      "description",
+      "category_id",
+      "brand",
+      "price",
+      "compare_at_price",
+      "currency",
+      "color",
+      "weight_g",
+      "tags",
+      "in_stock",
+      "rating",
+      "review_count",
+      "status"
+    ],
+    "json_file": "data\\raw\\products.json",
+    "csv_file": "data\\raw\\products.csv"
+  },
+  "customers": {
+    "record_count": 800,
+    "fields": [
+      "id",
+      "created_at",
+      "updated_at",
+      "name",
+      "email",
+      "phone",
+      "company",
+      "address",
+      "tier",
+      "marketing_opt_in",
+      "orders_count",
+      "total_spent",
+      "notes"
+    ],
+    "json_file": "data\\raw\\customers.json",
+    "csv_file": "data\\raw\\customers.csv"
+  },
+  "orders": {
+    "record_count": 3000,
+    "fields": [
+      "id",
+      "created_at",
+      "updated_at",
+      "number",
+      "customer_id",
+      "status",
+      "subtotal",
+      "shipping",
+      "tax",
+      "discount",
+      "total",
+      "currency",
+      "payment_method",
+      "shipping_address",
+      "shipping_method",
+      "tracking_number",
+      "placed_at",
+      "paid_at",
+      "shipped_at",
+      "delivered_at",
+      "notes"
+    ],
+    "json_file": "data\\raw\\orders.json",
+    "csv_file": "data\\raw\\orders.csv"
+  },
+  "order_items": {
+    "record_count": 6219,
+    "fields": [
+      "id",
+      "created_at",
+      "updated_at",
+      "order_id",
+      "product_id",
+      "sku",
+      "name",
+      "quantity",
+      "unit_price",
+      "line_total"
+    ],
+    "json_file": "data\\raw\\order_items.json",
+    "csv_file": "data\\raw\\order_items.csv"
+  },
+  "reviews": {
+    "record_count": 2500,
+    "fields": [
+      "id",
+      "created_at",
+      "updated_at",
+      "product_id",
+      "customer_id",
+      "rating",
+      "title",
+      "body",
+      "verified_purchase",
+      "helpful_votes"
+    ],
+    "json_file": "data\\raw\\reviews.json",
+    "csv_file": "data\\raw\\reviews.csv"
+  }
+}
