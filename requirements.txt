@@ -1,0 +1,18 @@
+# Data analysis
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+
+# Data visualization
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Jupyter notebooks
+jupyterlab==4.6.4
+ipykernel==7.4.0
+
+# Dataset access
+ucimlrepo==0.0.7
+
+# Excel file support
+openpyxl==3.1.5
